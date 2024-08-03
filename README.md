@@ -44,28 +44,9 @@ GitHub Actions é uma plataforma de integração contínua e entrega contínua (
     npx cypress open
     ```
 
-## Passos do GitHub Actions
+## Verifique o workflow do GitHub Actions
 
-1. **Clone o repositório**:
-    ```sh
-    git clone https://github.com/usuario/github-actions-learning.git
-    cd github-actions-learning
-    ```
-
-2. **Crie um novo workflow**:
-    - Navegue até `.github/workflows/`.
-    - Crie um novo arquivo YAML (ex: `ci.yml`).
-    - Defina o workflow conforme necessário.
-
-3. **Commite e push as mudanças**:
-    ```sh
-    git add .github/workflows/ci.yml
-    git commit -m "Add CI workflow"
-    git push origin main
-    ```
-
-4. **Verifique o workflow**:
-    - Vá até a aba "Actions" no repositório GitHub.
+    - Vá até a aba "Actions" nesse repositório GitHub.
     - Verifique se o workflow foi executado com sucesso.
 
 ## Estrutura do Projeto
