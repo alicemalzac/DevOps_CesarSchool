@@ -44,25 +44,7 @@ GitHub Actions é uma plataforma de integração contínua e entrega contínua (
     npx cypress open
     ```
 
-## Estrutura do Projeto
-
-```plaintext
-cypress-github-actions/
-├── .github/
-│   └── workflows/
-│       └── cypress-tests.yml
-├── cypress/
-│   ├── fixtures/
-│   ├── integration/
-│   ├── plugins/
-│   └── support/
-├── node_modules/
-├── .gitignore
-├── cypress.json
-├── package.json
-└── README.md
-
-### Passos do GitHub Actions
+## Passos do GitHub Actions
 
 1. **Clone o repositório**:
     ```sh
@@ -85,4 +67,23 @@ cypress-github-actions/
 4. **Verifique o workflow**:
     - Vá até a aba "Actions" no repositório GitHub.
     - Verifique se o workflow foi executado com sucesso.
+
+## Estrutura do Projeto
+
+```plaintext
+cypress-github-actions/
+├── .github/
+│   └── workflows/
+│       └── cypress-tests.yml
+├── cypress/
+│   ├── fixtures/
+│   ├── integration/
+│   ├── plugins/
+│   └── support/
+├── node_modules/
+├── .gitignore
+├── cypress.json
+├── package.json
+└── README.md
+
 
