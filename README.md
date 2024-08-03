@@ -57,6 +57,7 @@ cypress-github-actions/
 ├── .github/
 │   └── workflows/
 │       └── cypress.yml
+│       └── learn-github-actions.yml
 ├── cypress/
 │   ├── downloads/
 │   ├── fixtures/
