@@ -9,7 +9,7 @@ describe('Cadastro Simples de Usuário', () => {
 
     cy.request({
       method: 'POST',
-      url: '/usuarios',
+      url: '/usuario',
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
